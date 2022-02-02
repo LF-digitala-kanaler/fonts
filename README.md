@@ -14,8 +14,9 @@ Flash of Unstyled Text (FOUT) relies on combining preloading and the
 ```html
 <head>
   <!-- ... -->
-  <link rel="preload" href="/assets/intro-cond-regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/lf-rubrik.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/intro-cond-bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/intro-cond-regular.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 ```
 
