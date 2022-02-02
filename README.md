@@ -14,6 +14,7 @@ Flash of Unstyled Text (FOUT) relies on combining preloading and the
 ```html
 <head>
   <!-- ... -->
+  <link rel="preload" href="/assets/intro-cond-regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/lf-rubrik.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 ```
@@ -36,5 +37,5 @@ these fonts to vertically align differently from the typography used in Figma,
 Sketch, or print.
 
 **LF Rubrik** falls back to **Georgia**. **Intro Cond** falls back to
-**Arial**. See the [complete font stacks](font-stacks) in the implemetation
+**Arial**. See the [complete font stacks](https://github.com/LF-digitala-kanaler/fonts/blob/master/index.css#L2) in the implemetation
 example.
