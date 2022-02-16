@@ -1,4 +1,4 @@
-# <img src="https://github.com/LF-digitala-kanaler/favicon/blob/master/icon.svg" width="24"> Länsförsäkringar Components
+# <img src="https://github.com/LF-digitala-kanaler/favicon/blob/master/icon.svg" width="24"> Länsförsäkringar Fonts
 
 **Collecting the Länsförsäkringar web font files and the implementations best practices we rely on.**
 
