@@ -1,16 +1,12 @@
-# Länsförsäkringar Fonts
-This repo contains the correct font files to be used on our web platforms,
-along with an implementations example for the correct font setup.
+# <img src="https://github.com/LF-digitala-kanaler/favicon/blob/master/icon.svg" width="24"> Länsförsäkringar Components
+
+**Collecting the Länsförsäkringar web font files and the implementations best practices we rely on.**
 
 ## Loading fonts
-Please reference the latest community guidelines before implementing the font
-files.
+Please check the latest community guidelines before implementing the font files. As of 2022, our method for limiting Flash of invisible text (FOIT) and Flash of Unstyled Text (FOUT) relies on combining preloading and the `font-display: swap` CSS property.
 
-As of 2022, our method for limiting Flash of invisible text (FOIT) and
-Flash of Unstyled Text (FOUT) relies on combining preloading and the
-`font-display: swap` CSS property.
+Preloading
 
-**Preloading**
 ```html
 <head>
   <!-- ... -->
@@ -20,7 +16,8 @@ Flash of Unstyled Text (FOUT) relies on combining preloading and the
 </head>
 ```
 
-**Font display**
+Font display
+
 ```css
 @font-face {
   font-family: 'LF Rubrik';
@@ -30,8 +27,10 @@ Flash of Unstyled Text (FOUT) relies on combining preloading and the
 }
 ```
 
+See the full [CSS implemetation example](https://github.com/LF-digitala-kanaler/fonts/blob/master/index.css).
+
 ## Fallbacks
 
-**LF Rubrik** falls back to **Georgia**. **Intro Cond** falls back to
-**Arial**. See the [complete font stacks](https://github.com/LF-digitala-kanaler/fonts/blob/master/index.css#L2) in the implemetation
-example.
+**LF Rubrik** falls back to **Georgia**. **Intro Cond** falls back to **Arial**.
+
+See the [complete font stacks](https://github.com/LF-digitala-kanaler/fonts/blob/master/index.css#L2) in the implemetation example.
