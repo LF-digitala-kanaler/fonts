@@ -3,10 +3,10 @@
  */
 
 :root {
-  --lf-sans-serif-font-family: "Intro Cond", Arial, "Helvetica Neue",
+  --lf-font-family-sans-serif: "Intro Cond", Arial, "Helvetica Neue",
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
-  --lf-serif-font-family: "LF Rubrik", Georgia, "Times New Roman", Times, serif;
+  --lf-font-family-serif: "LF Rubrik", Georgia, "Times New Roman", Times, serif;
 }
 
 /**
