@@ -50,21 +50,10 @@ h1 {
 }
 ```
 
-The font files are referenced realtive to the CSS and can be loaded using a tool
-like [postcss-url](https://github.com/postcss/postcss-url) but can also be
-configured with custom properties.
-
-```css
-@import "@lf-digitala-kanaler/fonts";
-
-:root {
-  --lf-serif-url: url('/assets/fonts/lf-rubrik.woff2');
-  --lf-sans-serif-url: url('/assets/fonts/intro-cond-regular.woff2');
-  --lf-sans-serif-italic-url: url('/assets/fonts/intro-cond-regular-italic.woff2');
-  --lf-sans-serif-bold-url: url('/assets/fonts/intro-cond-bold.woff2');
-  --lf-sans-serif-bold-italic-url: url('/assets/fonts/intro-cond-bold-italic.woff2');
-}
-```
+The font files are referenced relative to the CSS and can be loaded using a tool
+like [postcss-url](https://github.com/postcss/postcss-url). If such a tool is
+not available in your environment, you will have to copy the source files and
+do the CSS implementation manually.
 
 See the full [CSS implemetation](./index.css).
 
