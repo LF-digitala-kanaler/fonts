@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Länsförsäkringar web font files",
   "style": "index.css",
+  "main": "index.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LF-digitala-kanaler/fonts.git"
