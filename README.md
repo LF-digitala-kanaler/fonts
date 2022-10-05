@@ -3,6 +3,7 @@
 **The Länsförsäkringar web font files and best practices we rely on.**
 
 ## Loading fonts
+
 Please check the latest community guidelines before implementing the font files.
 As of 2022, our method for limiting Flash of invisible text (FOIT) and Flash of
 Unstyled Text (FOUT) relies on combining preloading and the
@@ -31,7 +32,8 @@ Font display
 ```
 
 ## CSS
-This package includes a complete CSS implementation of the font stacks ready to 
+
+This package includes a complete CSS implementation of the font stacks ready to
 be imported.
 
 The file declares the two custom properties
@@ -39,7 +41,7 @@ The file declares the two custom properties
 apply the appropriate font family.
 
 ```css
-@import "@lf-digitala-kanaler/fonts";
+@import '@lansforsakringar/fonts';
 
 body {
   font-family: var(--lf-font-family-sans-serif);
