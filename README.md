@@ -15,6 +15,8 @@ Preloading
 <head>
   <!-- ... -->
   <link rel="preload" href="/lf-rubrik.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/lf-rubrik.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="/lf-rubrik.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="/intro-cond-bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/intro-cond-regular.woff2" as="font" type="font/woff2" crossorigin>
 </head>
@@ -25,7 +27,10 @@ Font display
 ```css
 @font-face {
   font-family: 'LF Rubrik';
-  src: url('/lf-rubrik.woff2') format('woff2');
+  src:
+    url('./lf-rubrik.woff') format('woff')
+    url('./lf-rubrik.woff2') format('woff2')
+    url('./lf-rubrik.ttf') format('ttf');
   font-display: swap;
   /* ... */
 }
