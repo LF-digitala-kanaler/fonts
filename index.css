@@ -15,10 +15,7 @@
 
 @font-face {
   font-family: 'LF Rubrik';
-  src:
-    url('./lf-rubrik.woff2') format('woff2')
-    url('./lf-rubrik.woff') format('woff')
-    url('./lf-rubrik.ttf') format('ttf');
+  src: url('./lf-rubrik.woff2') format('woff2');
   font-display: swap;
   font-kerning: normal;
   font-style: normal;
