@@ -1,6 +1,6 @@
 {
   "name": "@lansforsakringar/fonts",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Länsförsäkringar web font files",
   "style": "index.css",
   "main": "index.css",
